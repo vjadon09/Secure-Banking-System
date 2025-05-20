@@ -3,7 +3,7 @@
 
 This project simulates a secure client-server ATM banking application developed as part of the COE817 Network Security course at Toronto Metropolitan University. It includes features such as user registration, login, secure transaction processing, and cryptographically protected audit logging.
 
-## 🔐 Key Features
+## Key Features
 
 - Encrypted login and registration using **AES (Fernet)**.
 - Mutual authentication and secure key exchange between client and server.
@@ -13,7 +13,7 @@ This project simulates a secure client-server ATM banking application developed 
 - GUI interface for ATM client built using **Tkinter**.
 - Multi-threaded server to handle multiple clients simultaneously.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Secure-Banking-System/
@@ -25,7 +25,7 @@ Secure-Banking-System/
 └── requirements.txt          # List of required Python libraries
 ```
 
-## ✅ Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - Libraries:
@@ -44,7 +44,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the Repository
 
@@ -71,26 +71,18 @@ python ATM_client.py
 
 You can now register a new user, log in, deposit/withdraw funds, and check your balance via the GUI.
 
-## 🔒 Security Overview
+## Security Overview
 
 - **Encryption:** AES symmetric encryption via Python's `Fernet`.
 - **Integrity:** Verified using `HMAC-SHA256`.
 - **Replay Protection:** Timestamps are checked on every request (2-minute validity window).
 - **Audit Logging:** Transactions are logged with timestamps, usernames, and actions, and validated via HMAC.
 
-## ⚠ Limitations
+## Authors
 
-- Local-only network support (no remote or web deployment).
-- TinyDB used for simplicity (not production-ready).
-- Basic error handling in the GUI.
-
-## 🧑‍💻 Authors
-
-- Vaishali Jadon – GUI, secure communication, login/transaction logic
-- Atiya Azeez – Server key distribution, replay attack defense
-- Astha Patel – Database logic, deposit/withdraw functions
-- Waneeha Samoon – Server logic, multi-client testing
-
-## 📜 License
+- Vaishali Jadon 
+- Atiya Azeez 
+- Astha Patel 
+- Waneeha Samoon 
 
 This project was developed for academic purposes only under TMU’s course COE817.
