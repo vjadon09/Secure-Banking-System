@@ -3,6 +3,10 @@
 
 This project simulates a secure client-server ATM banking application developed as part of the COE817 Network Security course at Toronto Metropolitan University. It includes features such as user registration, login, secure transaction processing, and cryptographically protected audit logging.
 
+<p align="center">
+  <img src="assets/banner/banner3.png" width="100%" alt="Project Banner">
+</p>
+
 ## Key Features
 
 - Encrypted login and registration using **AES (Fernet)**.
